@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #6c6b6b;
+  }
+  
+  header{
+      height:50px;
+      background-color:#FF9A4B;
+  }
+
+  main{
+      height:370px;
+      display: flex; /* Flexboxの利用 */
+      justify-content: center; /* 子要素の横並び・中央寄せ */
+      
+  }
+  .step1{
+      height:270px;
+      width:300px;
+      background-color:#EEEEEE ;
+      margin-top: 50px;
+
+  }
+  .img1{
+    background-image:url(flow01.png) ;
+    height:150px;
+    width:280px;
+    background-size: cover;
+    background-position: bottom;
+    margin:0px 10px 10px 10px;
+    
+  }
+
+  .step1 h1{
+      background-color:#FF9A4B ;
+      width:40px;
+      height:20px;
+      font-size: 10px;
+      color:white;
+
+  }
+  .step1 h3{
+    font-size: 15px;
+    margin:5px;
+    text-align: center;
+    color: black;
+  }
+
+  .step1 p{
+      font-size: 6px;
+      margin-left: 10px;
+      margin-right: 10px;
+
+
+  }
+
+  .step2{
+    height:270px;
+    width:300px;
+    background-color:#EEEEEE ;
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+  .img2{
+    background-image:url(flow02.png) ;
+    height:150px;
+    width:280px;
+    background-size: cover;
+    background-position: bottom;
+    margin:0px 10px 10px 10px;
+    
+  }
+
+  .step2 h1{
+      background-color:#FF9A4B ;
+      width:40px;
+      height:20px;
+      font-size: 10px;
+      color:white;
+
+  }
+  .step2 h3{
+    font-size: 15px;
+    margin:5px;
+    text-align: center;
+    color: black;
+  }
+
+ .step2 p{
+      font-size: 6px;
+      margin-left: 10px;
+      margin-right: 10px;
+
+  }
+  .step3{
+    height:270px;
+    width:300px;
+    background-color:#EEEEEE ;
+    margin-top: 50px;
+    margin-left: 30px;
+  }
+  .img3{
+    background-image:url(flow03.png) ;
+    height:150px;
+    width:280px;
+    background-size: cover;
+    background-position: bottom;
+    margin:0px 10px 10px 10px;
+    
+  }
+
+  .step3 h1{
+      background-color:#FF9A4B ;
+      width:40px;
+      height:20px;
+      font-size: 10px;
+      color:white;
+
+  }
+  .step3 h3{
+    font-size: 15px;
+    margin:5px;
+    text-align: center;
+    color: black;
+  }
+  .step3 p{
+    font-size: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+  footer{
+      height:50px;
+      background-color: #AAAAAA;
+  }
+  @media screen and (max-width: 768px) {
+    
+    main{
+      height:910px;
+      display: block; /* Flexboxの利用 */
+      
+      
+  }
+    .step1,.step2,.step3{
+      margin-left: auto;
+      margin-right: auto;
+      width:90%
+    }
+    .img1,.img2,.img3{
+      width:85%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .step1 h3{
+      text-align: left;
+    }
+    .step2 h3{
+      text-align: left;
+    }
+    .step3 h3{
+      text-align: left;
+    }
+    .step2,.step3{
+      margin-top:20px;
+    }
+  }
